@@ -1,0 +1,21 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "pingdotgg/uploadthing" }
+  ],
+  "commit": false,
+  "fixed": [["uploadthing", "@uploadthing/react"]],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "onlyUpdatePeerDependentsWhenOutOfRange": true
+  },
+  "ignore": [
+    "@example/appdir",
+    "@example/pagedir",
+    "@example/solidstart",
+    "docs"
+  ]
+}
